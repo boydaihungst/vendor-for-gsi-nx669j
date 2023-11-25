@@ -146,7 +146,6 @@ PRODUCT_PACKAGES += \
     extphonelib \
     qcrilhook \
     qti-telephony-common \
-    qti-telephony-common \
     qti-telephony-hidl-wrapper \
     qti-telephony-utils \
     vendor.qti.hardware.alarm-V1.0-java \

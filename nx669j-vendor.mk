@@ -134,7 +134,6 @@ PRODUCT_PACKAGES += \
     nubiatel-common \
     tcmclient \
     tcmiface \
-    telephony-common \
     telephony-ext \
     telephony-static-config \
     ims-ext-common \

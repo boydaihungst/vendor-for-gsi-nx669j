@@ -118,12 +118,6 @@ dex_import {
 }
 
 dex_import {
-	name: "telephony-common",
-	owner: "nubia",
-	jars: ["proprietary/system/framework/telephony-common.jar"],
-}
-
-dex_import {
 	name: "telephony-ext",
 	owner: "nubia",
 	jars: ["proprietary/system/framework/telephony-ext.jar"],

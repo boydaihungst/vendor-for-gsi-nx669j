@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx669j/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/nubia/nx669j/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/nubia/nx669j/proprietary/system/etc/telephony/config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/telephony/config.xml \
-    vendor/nubia/nx669j/proprietary/system/lib64/hw/audio.a2dp.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/audio.a2dp.default.so \
     vendor/nubia/nx669j/proprietary/system/lib64/libglnubia.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libglnubia.so \
     vendor/nubia/nx669j/proprietary/system/lib64/libnubia_runtime.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libnubia_runtime.so \
     vendor/nubia/nx669j/proprietary/system/lib64/libnubia_servers.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libnubia_servers.so \

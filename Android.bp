@@ -6,6 +6,17 @@ soong_namespace {
 }
 
 android_app_import {
+	name: "ZNubiaSensor",
+	owner: "nubia",
+	apk: "proprietary/system/priv-app/ZNubiaSensor/ZNubiaSensor.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "PowerOffAlarm",
 	owner: "nubia",
 	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
@@ -29,9 +40,42 @@ android_app_import {
 }
 
 android_app_import {
+	name: "ImsRcsService",
+	owner: "nubia",
+	apk: "proprietary/system_ext/app/ImsRcsService/ImsRcsService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "MStatsSystemService",
+	owner: "nubia",
+	apk: "proprietary/system_ext/app/MStatsSystemService/MStatsSystemService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
 	name: "PerformanceMode",
 	owner: "nubia",
 	apk: "proprietary/system_ext/app/PerformanceMode/PerformanceMode.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "QColor",
+	owner: "nubia",
+	apk: "proprietary/system_ext/app/QColor/QColor.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -51,9 +95,75 @@ android_app_import {
 }
 
 android_app_import {
+	name: "SimContact",
+	owner: "nubia",
+	apk: "proprietary/system_ext/app/SimContact/SimContact.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "aptxacu",
+	owner: "nubia",
+	apk: "proprietary/system_ext/app/aptxacu/aptxacu.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "aptxui",
+	owner: "nubia",
+	apk: "proprietary/system_ext/app/aptxui/aptxui.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "atfwd",
+	owner: "nubia",
+	apk: "proprietary/system_ext/app/atfwd/atfwd.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "colorservice",
+	owner: "nubia",
+	apk: "proprietary/system_ext/app/colorservice/colorservice.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
 	name: "imssettings",
 	owner: "nubia",
 	apk: "proprietary/system_ext/app/imssettings/imssettings.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "uceShimService",
+	owner: "nubia",
+	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -73,9 +183,33 @@ android_app_import {
 }
 
 android_app_import {
+	name: "QAS_DVC_MSP",
+	owner: "nubia",
+	apk: "proprietary/system_ext/priv-app/QAS_DVC_MSP/QAS_DVC_MSP.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
 	name: "WfdService",
 	owner: "nubia",
 	apk: "proprietary/system_ext/priv-app/WfdService/WfdService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "aptxals",
+	owner: "nubia",
+	apk: "proprietary/system_ext/priv-app/aptxals/aptxals.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -120,6 +254,42 @@ android_app_import {
 	system_ext_specific: true,
 }
 
+android_app_import {
+	name: "seccamservice",
+	owner: "nubia",
+	apk: "proprietary/system_ext/priv-app/seccamservice/seccamservice.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "xrcbservice",
+	owner: "nubia",
+	apk: "proprietary/system_ext/priv-app/xrcbservice/xrcbservice.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "xrvdservice",
+	owner: "nubia",
+	apk: "proprietary/system_ext/priv-app/xrvdservice/xrvdservice.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
 dex_import {
 	name: "QPerformance",
 	owner: "nubia",
@@ -148,6 +318,12 @@ dex_import {
 	name: "ims-common",
 	owner: "nubia",
 	jars: ["proprietary/system/framework/ims-common.jar"],
+}
+
+dex_import {
+	name: "nubia-vibrate",
+	owner: "nubia",
+	jars: ["proprietary/system/framework/nubia-vibrate.jar"],
 }
 
 dex_import {
@@ -215,9 +391,30 @@ dex_import {
 }
 
 dex_import {
+	name: "ActivityExt",
+	owner: "nubia",
+	jars: ["proprietary/system_ext/framework/ActivityExt.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "audiosphere",
+	owner: "nubia",
+	jars: ["proprietary/system_ext/framework/audiosphere.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "com.qti.dpmframework",
 	owner: "nubia",
 	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qti.media.secureprocessor",
+	owner: "nubia",
+	jars: ["proprietary/system_ext/framework/com.qti.media.secureprocessor.jar"],
 	system_ext_specific: true,
 }
 
@@ -243,9 +440,79 @@ dex_import {
 }
 
 dex_import {
+	name: "com.qualcomm.qti.uceservice-V2.0-java",
+	owner: "nubia",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.uceservice-V2.1-java",
+	owner: "nubia",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.uceservice-V2.2-java",
+	owner: "nubia",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.uceservice-V2.3-java",
+	owner: "nubia",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.3-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.quicinc.cne.api-V1.0-java",
+	owner: "nubia",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.api-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.quicinc.cne.api-V1.1-java",
+	owner: "nubia",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.api-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.quicinc.cne.constants-V1.0-java",
+	owner: "nubia",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.constants-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.quicinc.cne.constants-V2.0-java",
+	owner: "nubia",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.constants-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.quicinc.cne.constants-V2.1-java",
+	owner: "nubia",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.constants-V2.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "dpmapi",
 	owner: "nubia",
 	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "embmslibrary",
+	owner: "nubia",
+	jars: ["proprietary/system_ext/framework/embmslibrary.jar"],
 	system_ext_specific: true,
 }
 
@@ -257,9 +524,23 @@ dex_import {
 }
 
 dex_import {
+	name: "izat.xt.srv",
+	owner: "nubia",
+	jars: ["proprietary/system_ext/framework/izat.xt.srv.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "qcrilhook",
 	owner: "nubia",
 	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qmapbridge",
+	owner: "nubia",
+	jars: ["proprietary/system_ext/framework/qmapbridge.jar"],
 	system_ext_specific: true,
 }
 
@@ -281,6 +562,13 @@ dex_import {
 	name: "qti-telephony-utils",
 	owner: "nubia",
 	jars: ["proprietary/system_ext/framework/qti-telephony-utils.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.factory-V1.0-java",
+	owner: "nubia",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V1.0-java.jar"],
 	system_ext_specific: true,
 }
 

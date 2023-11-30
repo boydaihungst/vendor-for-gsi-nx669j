@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx669j/proprietary/system/lib64/libnubia_runtime.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libnubia_runtime.so \
     vendor/nubia/nx669j/proprietary/system/lib64/libnubia_servers.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libnubia_servers.so \
     vendor/nubia/nx669j/proprietary/system/lib64/libnubiamtp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libnubiamtp.so \
-    vendor/nubia/nx669j/proprietary/system/lib64/libpower_monitor.dylib.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libpower_monitor.dylib.so \
     vendor/nubia/nx669j/proprietary/system/lib64/vendor.qti.hardware.display.config-V1-ndk_platform.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.display.config-V1-ndk_platform.so \
     vendor/nubia/nx669j/proprietary/system/lib64/vendor.qti.hardware.display.config-V2-ndk_platform.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.display.config-V2-ndk_platform.so \
     vendor/nubia/nx669j/proprietary/system/lib64/vendor.qti.hardware.display.config-V3-ndk_platform.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.display.config-V3-ndk_platform.so \

@@ -40,17 +40,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "QtiTelephony",
-	owner: "nubia",
-	apk: "proprietary/system_ext/app/QtiTelephony/QtiTelephony.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "QtiTelephonyService",
 	owner: "nubia",
 	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
@@ -80,18 +69,6 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "CarrierConfig",
-	owner: "nubia",
-	apk: "proprietary/system_ext/priv-app/CarrierConfig/CarrierConfig.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
 	system_ext_specific: true,
 }
 
@@ -283,13 +260,6 @@ dex_import {
 	name: "qcrilhook",
 	owner: "nubia",
 	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "qti-telephony-common",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
 	system_ext_specific: true,
 }
 

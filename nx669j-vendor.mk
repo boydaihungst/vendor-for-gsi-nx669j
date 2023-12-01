@@ -332,6 +332,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/libqccAuthMgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqccAuthMgr.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/libqcc_file_agent_sys.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqcc_file_agent_sys.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/libqcc_netstats.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqcc_netstats.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/libqcomfm_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqcomfm_jni.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/libqdMetaData.system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqdMetaData.system.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/libqesdk_ndk_platform.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqesdk_ndk_platform.qti.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/libqmi_cci_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqmi_cci_system.so \
@@ -341,6 +342,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/libqti-iopd-client_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqti-iopd-client_system.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/libqti-perfd-client_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqti-perfd-client_system.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/libqti_performance.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqti_performance.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/libqti_vndfwk_detect.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqti_vndfwk_detect.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/libqti_vndfwk_detect_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqti_vndfwk_detect_system.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/libqti_workloadclassifiermodel.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqti_workloadclassifiermodel.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/librecpp_intf.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/librecpp_intf.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/libsd_sdk_display.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsd_sdk_display.qti.so \
@@ -356,6 +359,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/libthermalclient.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libthermalclient.qti.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/libtrigger-handler.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtrigger-handler.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/libupdateprof.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libupdateprof.qti.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/libvndfwk_detect_jni.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvndfwk_detect_jni.qti.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/libvndfwk_detect_jni.qti_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvndfwk_detect_jni.qti_system.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/libvr_amb_engine.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvr_amb_engine.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/libvr_object_engine.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvr_object_engine.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/libvr_sam_wrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvr_sam_wrapper.so \
@@ -383,6 +388,22 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.1.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.2.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.3.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.0.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.1.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.config@1.10.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.10.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.config@1.11.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.11.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.config@1.12.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.12.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.config@1.13.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.13.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.config@1.14.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.14.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.2.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.3.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.4.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.5.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.6.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.7.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.8.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.9.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.config@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@2.0.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.postproc@1.0.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.nb.halserver.nubia_hal_server@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.nb.halserver.nubia_hal_server@1.0.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.data.factory@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@1.0.so \
@@ -398,6 +419,10 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.audiohalext@1.0.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.bluetooth_audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.bluetooth_audio@2.1.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.btconfigstore@1.0.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.btconfigstore@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.btconfigstore@2.0.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.cryptfshw@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.cryptfshw@1.0.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.cvp@1.0-adapter-helper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.cvp@1.0-adapter-helper.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.cvp@1.0.so \
@@ -414,6 +439,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.data.lce@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.lce@1.0.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.display.composer@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.display.composer@3.0.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.display.composer@3.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.display.composer@3.1.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.dpmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.dpmservice@1.0.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.dpmservice@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.dpmservice@1.1.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.embmssl@1.0-adapter-helper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.embmssl@1.0-adapter-helper.so \
@@ -470,6 +497,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.secureprocessor.config@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.secureprocessor.config@1.0.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.secureprocessor.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.secureprocessor.device@1.0.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.slmadapter@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.slmadapter@1.0.so \
+    vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.systemhelper@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.systemhelper@1.0.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.trustedui@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.trustedui@1.0.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/nubia/nx669j/proprietary/system_ext/lib64/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.vpp@1.1.so \

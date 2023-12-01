@@ -507,20 +507,16 @@ PRODUCT_PACKAGES += \
     ZNubiaSensor \
     PowerOffAlarm \
     ImsServiceEntitlement \
-    BluetoothDsDaService \
-    DynamicDDSService \
     ImsRcsService \
     MStatsSystemService \
     PerformanceMode \
     QColor \
-    QdcmFF \
     QtiTelephonyService \
     SimContact \
     aptxacu \
     aptxui \
     atfwd \
     colorservice \
-    embms \
     imssettings \
     uceShimService \
     workloadclassifier \
@@ -577,8 +573,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.factory-V1.0-java \
     vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.hardware.capabilityconfigstore-V1.0-java \
-    vendor.qti.hardware.data.dynamicdds-V1.0-java \
-    vendor.qti.hardware.data.dynamicdds-V1.1-java \
     vendor.qti.hardware.sensorscalibrate-V1.0-java \
     vendor.qti.ims.callcapability-V1.0-java \
     vendor.qti.ims.callinfo-V1.0-java \

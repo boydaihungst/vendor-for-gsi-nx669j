@@ -28,40 +28,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ImsServiceEntitlement",
-	owner: "nubia",
-	apk: "proprietary/product/priv-app/ImsServiceEntitlement/ImsServiceEntitlement.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "ImsRcsService",
-	owner: "nubia",
-	apk: "proprietary/system_ext/app/ImsRcsService/ImsRcsService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "MStatsSystemService",
-	owner: "nubia",
-	apk: "proprietary/system_ext/app/MStatsSystemService/MStatsSystemService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "PerformanceMode",
 	owner: "nubia",
 	apk: "proprietary/system_ext/app/PerformanceMode/PerformanceMode.apk",
@@ -84,86 +50,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "QtiTelephonyService",
-	owner: "nubia",
-	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "SimContact",
-	owner: "nubia",
-	apk: "proprietary/system_ext/app/SimContact/SimContact.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "aptxacu",
-	owner: "nubia",
-	apk: "proprietary/system_ext/app/aptxacu/aptxacu.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "aptxui",
-	owner: "nubia",
-	apk: "proprietary/system_ext/app/aptxui/aptxui.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "atfwd",
-	owner: "nubia",
-	apk: "proprietary/system_ext/app/atfwd/atfwd.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "colorservice",
 	owner: "nubia",
 	apk: "proprietary/system_ext/app/colorservice/colorservice.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "imssettings",
-	owner: "nubia",
-	apk: "proprietary/system_ext/app/imssettings/imssettings.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "uceShimService",
-	owner: "nubia",
-	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -183,33 +72,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "QAS_DVC_MSP",
-	owner: "nubia",
-	apk: "proprietary/system_ext/priv-app/QAS_DVC_MSP/QAS_DVC_MSP.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "WfdService",
 	owner: "nubia",
 	apk: "proprietary/system_ext/priv-app/WfdService/WfdService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "aptxals",
-	owner: "nubia",
-	apk: "proprietary/system_ext/priv-app/aptxals/aptxals.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -231,57 +96,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ims",
-	owner: "nubia",
-	apk: "proprietary/system_ext/priv-app/ims/ims.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "qcrilmsgtunnel",
 	owner: "nubia",
 	apk: "proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "seccamservice",
-	owner: "nubia",
-	apk: "proprietary/system_ext/priv-app/seccamservice/seccamservice.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "xrcbservice",
-	owner: "nubia",
-	apk: "proprietary/system_ext/priv-app/xrcbservice/xrcbservice.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "xrvdservice",
-	owner: "nubia",
-	apk: "proprietary/system_ext/priv-app/xrvdservice/xrvdservice.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -315,21 +132,9 @@ dex_import {
 }
 
 dex_import {
-	name: "ims-common",
-	owner: "nubia",
-	jars: ["proprietary/system/framework/ims-common.jar"],
-}
-
-dex_import {
 	name: "nubia-vibrate",
 	owner: "nubia",
 	jars: ["proprietary/system/framework/nubia-vibrate.jar"],
-}
-
-dex_import {
-	name: "nubiatel-common",
-	owner: "nubia",
-	jars: ["proprietary/system/framework/nubiatel-common.jar"],
 }
 
 dex_import {
@@ -342,52 +147,6 @@ dex_import {
 	name: "tcmiface",
 	owner: "nubia",
 	jars: ["proprietary/system/framework/tcmiface.jar"],
-}
-
-dex_import {
-	name: "telephony-common",
-	owner: "nubia",
-	jars: ["proprietary/system/framework/telephony-common.jar"],
-}
-
-dex_import {
-	name: "telephony-ext",
-	owner: "nubia",
-	jars: ["proprietary/system/framework/telephony-ext.jar"],
-}
-
-dex_import {
-	name: "telephony-static-config",
-	owner: "nubia",
-	jars: ["proprietary/system/framework/telephony-static-config.jar"],
-}
-
-dex_import {
-	name: "extphonelib-product",
-	owner: "nubia",
-	jars: ["proprietary/product/framework/extphonelib-product.jar"],
-	product_specific: true,
-}
-
-dex_import {
-	name: "ims-ext-common",
-	owner: "nubia",
-	jars: ["proprietary/product/framework/ims-ext-common.jar"],
-	product_specific: true,
-}
-
-dex_import {
-	name: "qti-telephony-hidl-wrapper-prd",
-	owner: "nubia",
-	jars: ["proprietary/product/framework/qti-telephony-hidl-wrapper-prd.jar"],
-	product_specific: true,
-}
-
-dex_import {
-	name: "qti-telephony-utils-prd",
-	owner: "nubia",
-	jars: ["proprietary/product/framework/qti-telephony-utils-prd.jar"],
-	product_specific: true,
 }
 
 dex_import {
@@ -415,27 +174,6 @@ dex_import {
 	name: "com.qti.media.secureprocessor",
 	owner: "nubia",
 	jars: ["proprietary/system_ext/framework/com.qti.media.secureprocessor.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "com.qualcomm.qti.imscmservice-V2.0-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "com.qualcomm.qti.imscmservice-V2.1-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "com.qualcomm.qti.imscmservice-V2.2-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar"],
 	system_ext_specific: true,
 }
 
@@ -517,20 +255,6 @@ dex_import {
 }
 
 dex_import {
-	name: "extphonelib",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/extphonelib.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "izat.xt.srv",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/izat.xt.srv.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "qcrilhook",
 	owner: "nubia",
 	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
@@ -541,27 +265,6 @@ dex_import {
 	name: "qmapbridge",
 	owner: "nubia",
 	jars: ["proprietary/system_ext/framework/qmapbridge.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "qti-telephony-common",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "qti-telephony-hidl-wrapper",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/qti-telephony-hidl-wrapper.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "qti-telephony-utils",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/qti-telephony-utils.jar"],
 	system_ext_specific: true,
 }
 
@@ -590,125 +293,6 @@ dex_import {
 	name: "vendor.qti.hardware.sensorscalibrate-V1.0-java",
 	owner: "nubia",
 	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.callcapability-V1.0-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.callcapability-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.callinfo-V1.0-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.callinfo-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.configservice-V1.0-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.configservice-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.configservice-V1.1-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.configservice-V1.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.connection-V1.0-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.factory-V1.0-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.factory-V1.1-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.factory-V2.0-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.factory-V2.1-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V2.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcsconfig-V1.0-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcsconfig-V1.1-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcsconfig-V2.0-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V2.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcsconfig-V2.1-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V2.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcssip-V1.0-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcssip-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcssip-V1.1-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcssip-V1.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcsuce-V1.0-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsuce-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcsuce-V1.1-java",
-	owner: "nubia",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsuce-V1.1-java.jar"],
 	system_ext_specific: true,
 }
 
